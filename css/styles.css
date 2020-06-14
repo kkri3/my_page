@@ -2,6 +2,7 @@ body {
   background-color: #c5c5c5;
   font-family: Verdana, sans-serif;
   margin: 0;
+  color: #444
 }
 
 header {
@@ -110,9 +111,22 @@ header > .title > h1{
   padding-right: 10px;
 }
 
-footer p {
+footer > .copyright {
+  display: flex;
   text-align: center;
+  justify-content: center;
+  text-align: center;
+}
+
+footer > .copyright > p{
+  /* display: inline-block; */
   font-size: 14px;
   margin-top: 60px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #777777;
+  color: #c5c5c5;
 }
